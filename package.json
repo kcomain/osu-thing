@@ -1,0 +1,18 @@
+{
+  "name": "osu-api2-test",
+  "version": "0.1.0",
+  "description": "fjiasuds",
+  "main": "app.js",
+  "author": "kcomain",
+  "license": "AGPL",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-oauth-server": "^2.0.0"
+  }
+}
