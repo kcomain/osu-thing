@@ -22,5 +22,5 @@ router.get('/auth/osu', asyncHandler(async (req, res) => {
 }));
 
 router.get('/auth/callback/osu', (req, res) => {
-    res.send('yumemey')
+    res.send('fumo')
 })
