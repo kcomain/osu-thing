@@ -8,11 +8,20 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "debug": "DEBUG=1 node app.js"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "express-oauth-server": "^2.0.0"
+    "express-async-handler": "^1.1.4",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
